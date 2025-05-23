@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Online Learning Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-book-open"></i>
+                Pradhan Academy
+            </a>
+            
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="all_ebooks.html">E-Books</a></li>
+                    <li><a href="#">Video Courses</a></li>
+                    <li><a href="#">Live Class (12th)</a></li>
+                </ul>
+            </nav>
+            
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="slider" id="slider">
+            <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                <div class="slide-content">
+                    <h1>Learn Anytime, Anywhere</h1>
+                    <p>Access thousands of courses and e-books from industry experts. Start learning today and advance your career.</p>
+                    <a href="#" class="btn">Explore Courses</a>
+                </div>
+            </div>
+            
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');">
+                <div class="slide-content">
+                    <h1>Premium E-Books Collection</h1>
+                    <p>Discover our extensive collection of e-books covering various subjects from programming to business.</p>
+                    <a href="#" class="btn">Browse E-Books</a>
+                </div>
+            </div>
+            
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+                <div class="slide-content">
+                    <h1>Interactive Live Classes</h1>
+                    <p>Join our live classes and interact with instructors in real-time. Get your questions answered instantly.</p>
+                    <a href="#" class="btn">View Schedule</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slider-nav" id="slider-nav">
+            <button class="active"></button>
+            <button></button>
+            <button></button>
+        </div>
+    </section>
+    
+    <section class="courses">
+        <div class="container">
+            <h2 class="section-title">Our Popular Courses</h2>
+            
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Web Development">
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-title">Class 12th Physics Semister 3 Complete Solutions</h3>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> Lifetime</span>
+                            <span><i class="fas fa-user-graduate"></i> Class 12 3rd Semister</span>
+                        </div>
+                        <div class="course-price">
+                            <div>
+                                <span class="original-price">₹999</span>
+                                <span class="price">₹499</span>
+                            </div>
+                            <span class="discount-badge">50% OFF</span>
+                        </div>
+                        <div class="course-actions">
+                            <a href="ebook-details.html" class="btn-details">E-BOOK DETAILS</a>
+                            <a href="checkout.html" class="btn-buy">BUY NOW</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80" alt="Data Science">
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-title">ক্লাস 12 সেমিস্টার 3 ফিজিক্স Formula এবং notes Book</h3>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> Lifetime </span>
+                            <span><i class="fas fa-user-graduate"></i> Class 12 (3rd Semister)</span>
+                        </div>
+                        <div class="course-price">
+                            <div>
+                                <span class="original-price">₹499/-</span>
+                                <span class="price">₹249/-</span>
+                            </div>
+                            <span class="discount-badge">50% OFF</span>
+                        </div>
+                        <div class="course-actions">
+                            <a href="ebook-details.html" class="btn-details">E-BOOK DETAILS</a>
+                            <a href="checkout.html" class="btn-buy">BUY NOW</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Digital Marketing">
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-title">Digital Marketing Masterclass</h3>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 4 Months</span>
+                            <span><i class="fas fa-user-graduate"></i> All Levels</span>
+                        </div>
+                        <div class="course-price">
+                            <div>
+                                <span class="original-price">$149</span>
+                                <span class="price">$99</span>
+                            </div>
+                            <span class="discount-badge">33% OFF</span>
+                        </div>
+                        <div class="course-actions">
+                            <a href="ebook-details.html" class="btn-details">E-BOOK DETAILS</a>
+                            <a href="checkout.html" class="btn-buy">BUY NOW</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Graphic Design">
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-title">Graphic Design Fundamentals</h3>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 3 Months</span>
+                            <span><i class="fas fa-user-graduate"></i> Beginners</span>
+                        </div>
+                        <div class="course-price">
+                            <div>
+                                <span class="original-price">$129</span>
+                                <span class="price">$89</span>
+                            </div>
+                            <span class="discount-badge">31% OFF</span>
+                        </div>
+                        <div class="course-actions">
+                            <a href="ebook-details.html" class="btn-details">E-BOOK DETAILS</a>
+                            <a href="checkout.html" class="btn-buy">BUY NOW</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80" alt="Business Analytics">
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-title">Business Analytics with Excel</h3>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 2 Months</span>
+                            <span><i class="fas fa-user-graduate"></i> All Levels</span>
+                        </div>
+                        <div class="course-price">
+                            <div>
+                                <span class="original-price">$99</span>
+                                <span class="price">$69</span>
+                            </div>
+                            <span class="discount-badge">30% OFF</span>
+                        </div>
+                        <div class="course-actions">
+                            <a href="ebook-details.html" class="btn-details">E-BOOK DETAILS</a>
+                            <a href="checkout.html" class="btn-buy">BUY NOW</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mobile Development">
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-title">Mobile App Development with Flutter</h3>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 5 Months</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                        </div>
+                        <div class="course-price">
+                            <div>
+                                <span class="original-price">$229</span>
+                                <span class="price">$179</span>
+                            </div>
+                            <span class="discount-badge">22% OFF</span>
+                        </div>
+                        <div class="course-actions">
+                            <a href="ebook-details.html" class="btn-details">E-BOOK DETAILS</a>
+                            <a href="checkout.html" class="btn-buy">BUY NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Pradhan Academy</h3>
+                    <p>Your one-stop destination for quality online education. Learn from industry experts and advance your career.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About_us.html">About Us</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="all_ebooks.html">E-Books</a></li>
+                        <li><a href="#">Live Classes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="help-center.html">Help Center</a></li>
+                        <li><a href="terms_conditions.html">Terms & Conditions</a></li>
+                        <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="help-center.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                    <form>
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Pradhan Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

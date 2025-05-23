@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | EduLearn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+       
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-book-open"></i>
+                EduLearn
+            </a>
+            
+            <div class="secure-checkout">
+                <i class="fas fa-lock"></i>
+                <span>Secure Checkout</span>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="container">
+        <div class="checkout-container">
+            <!-- Checkout Form -->
+            <div class="checkout-form">
+                <h2 class="section-title">Billing Information</h2>
+
+
+                <form id="billing-form" action="https://script.google.com/macros/s/AKfycbzWX08Vkv-Vl-_Rfo6fAmqT1G3lr94hGwzSTMj24XjEXUY8Ql2003Mxj-CzlsujBtF6QQ/exec" method="POST">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="firstName" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="lastName" class="form-control" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" required>
+                    </div>
+                    <h2 class="section-title">Payment Method</h2>
+                    
+                    <div class="payment-methods">
+                        <div class="payment-method active">
+                            <input type="radio" name="payment-method" id="credit-card" checked>
+                            <div class="payment-method-icon">
+                                <i class="far fa-credit-card"></i>
+                            </div>
+                            <div class="payment-method-details">
+                                <div class="payment-method-title">Credit/Debit Card</div>
+                                <div class="payment-method-desc">Pay with Visa, Mastercard, American Express</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <button type="submit" class="btn" style="width: 100%; margin-top: 20px;">
+                        Complete Purchase
+                    </button>
+                </form>
+                
+                
+            </div>
+            
+            <!-- Order Summary -->
+            <div class="order-summary">
+                <h2 class="section-title">Your Order</h2>
+                
+                <div class="order-items">
+                    <div class="order-item">
+                        <div class="order-item-img">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="JavaScript Mastery">
+                        </div>
+                        <div class="order-item-details">
+                            <div class="order-item-title">JavaScript Mastery: From Beginner to Advanced</div>
+                            <div class="order-item-type">E-Book</div>
+                        </div>
+                        <div class="order-item-price">$34.99</div>
+                    </div>
+                    
+                    <div class="order-item">
+                        <div class="order-item-img">
+                            <img src="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80" alt="Data Science">
+                        </div>
+                        <div class="order-item-details">
+                            <div class="order-item-title">Data Science & Machine Learning</div>
+                            <div class="order-item-type">Video Course</div>
+                        </div>
+                        <div class="order-item-price">$229.00</div>
+                    </div>
+                </div>
+                
+                <div class="coupon-form">
+                    <input type="text" class="coupon-input" placeholder="Coupon Code">
+                    <button class="coupon-btn">Apply</button>
+                </div>
+                
+                <div class="order-totals">
+                    <div class="order-total-row">
+                        <span>Subtotal:</span>
+                        <span>$263.99</span>
+                    </div>
+                    <div class="order-total-row">
+                        <span>Discount:</span>
+                        <span>-$30.00</span>
+                    </div>
+                    <div class="order-total-row">
+                        <span>Tax:</span>
+                        <span>$18.48</span>
+                    </div>
+                    <div class="order-total-row">
+                        <span>Total:</span>
+                        <span>$252.47</span>
+                    </div>
+                </div>
+                
+                <div class="secure-checkout">
+                    <i class="fas fa-lock"></i>
+                    <span>Your payment is secure and encrypted</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    
+</body>
+</html>
